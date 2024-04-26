@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Inter", sans-serif; 
+  background-color:hsl(0, 0%, 8%) ;
+  overflow: hidden;
+  padding: 0 1em;  
+}
+.container{
+  max-width: 500px;
+  margin: 300px auto;
+  left: 50%;
+  top: 50%;
+  padding: 0 1em;
+  padding: 20px;
+  background-color: hsl(0, 0%, 12%);
+  width: 500px;
+  border-radius: 20px;
+ text-align: center;  
+}
+
+.img-top{
+  width: 100%;
+  margin:20px 0px;
+}
+.avatar{
+max-width: 100px;
+max-height: 100px;
+}
+
+.avatar-picture {
+  height: 100px;
+  border-radius: 200px;
+}
+.name{
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+ margin:0 140px;
+ padding-bottom: 12px;
+}
+.loca{
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 146px;
+  padding-bottom: 23px;
+}
+.info{
+  color: hsl(0, 0%, 80%);
+  margin: 0 80px;
+  padding-bottom: 30px;
+}
+.github{
+  display: block;
+  font-weight: 700;
+  background-color:hsl(0, 0%, 20%) ;
+  margin: 0 50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.github a{
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  left: 50%;
+  top: 50%;
+}
+.github :hover{
+  color: black;
+  background-color:hsl(75, 94%, 57%) ;
+  transition: 0.15s ease
+}
+
+.front{
+  display: block;
+  font-weight: 700;
+  background-color:hsl(0, 0%, 20%) ;
+  margin: 0 50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.front a{
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 113px;
+  padding-right: 113px;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+}
+.front :hover{
+  color: black;
+  background-color:hsl(75, 94%, 57%) ;
+  transition: 0.15s ease
+}
+
+.linked{
+  display: block;
+  font-weight: 700;
+  background-color:hsl(0, 0%, 20%) ;
+  margin: 0 50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.linked a{
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  left: 50%;
+  top: 50%;
+}
+.linked :hover{
+  color: black;
+  background-color:hsl(75, 94%, 57%) ;
+  transition: 0.15s ease
+}
+
+.twitter{
+  display: block;
+  font-weight: 700;
+  background-color:hsl(0, 0%, 20%) ;
+  margin: 0 50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.twitter a{
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 152px;
+  padding-right: 151px;
+  left: 50%;
+  top: 50%;
+}
+.twitter :hover{
+  color: black;
+  background-color:hsl(75, 94%, 57%) ;
+  transition: 0.15s ease
+}
+
+.insta{
+  display: block;
+  font-weight: 700;
+  background-color:hsl(0, 0%, 20%) ;
+  margin: 0 50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.insta a{
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 150px;
+  padding-right: 130px;
+  left: 50%;
+  top: 50%;
+}
+.insta :hover{
+  color: black;
+  background-color:hsl(75, 94%, 57%) ;
+  transition: 0.15s ease
+}
+@media only screen and (max-width: 375px){
+.container{
+  margin-right: 1em;
+}
+}
